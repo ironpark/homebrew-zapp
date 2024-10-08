@@ -5,20 +5,20 @@
 class Zapp < Formula
   desc "Zapp is a powerful CLI tool designed to streamline the deployment process for macOS applications. With Zapp, you can effortlessly create DMG and PKG files, perform code signing, notarize your apps, and modify plist files."
   homepage "https://github.com/ironpark/zapp"
-  version "0.2.2"
+  version "0.2.3"
   depends_on :macos
 
   on_intel do
-    url "https://github.com/ironpark/zapp/releases/download/v0.2.2/zapp_Darwin_x86_64.tar.gz"
-    sha256 "b8e5a6797a34f687f40316753f3c333bbc7e4468322a5f74f74666283d6ab4b8"
+    url "https://github.com/ironpark/zapp/releases/download/v0.2.3/zapp_Darwin_x86_64.tar.gz"
+    sha256 "836566cbc4b0754606aed6e2245c0b1874b825d593d3705283323001d71f6d4d"
 
     def install
       bin.install "zapp"
     end
   end
   on_arm do
-    url "https://github.com/ironpark/zapp/releases/download/v0.2.2/zapp_Darwin_arm64.tar.gz"
-    sha256 "8f084da9181da8fb87de6d9f6cc03ebd370c192d1e0c1aaa3c9c0c837cc88a49"
+    url "https://github.com/ironpark/zapp/releases/download/v0.2.3/zapp_Darwin_arm64.tar.gz"
+    sha256 "3bcdff474118643a87667862f9170201a88f6012f5f359841efa03c9a91a1e6f"
 
     def install
       bin.install "zapp"
