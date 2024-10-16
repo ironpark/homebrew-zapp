@@ -10,7 +10,7 @@ class Zapp < Formula
 
   on_intel do
     url "https://github.com/ironpark/zapp/releases/download/v0.3.1/zapp_Darwin_x86_64.tar.gz"
-    sha256 "f93bb393be0a6871f3a5766f07b7a055df4d3f3793904f2e5308d839b58ee915"
+    sha256 "75e3c16395534620c7193013a6e9b4b6e7fe4aa722aaa7796c41258beefffe0d"
 
     def install
       bin.install "zapp"
@@ -18,7 +18,7 @@ class Zapp < Formula
   end
   on_arm do
     url "https://github.com/ironpark/zapp/releases/download/v0.3.1/zapp_Darwin_arm64.tar.gz"
-    sha256 "8771bb70d217d55cd8249880b357c8aeca5c9a4506c13bf959da80202cf0e79d"
+    sha256 "3aa28e29e188288d28e2cb530616d0b59cd5362ab373a31dd5baf2805cdbb8f1"
 
     def install
       bin.install "zapp"
